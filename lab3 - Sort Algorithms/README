@@ -1,25 +1,16 @@
-Task 1.
+#1 Brief Summary
+  The insertionSort algorithm was implemented by using a simple few lines of code
+  to compare and swap 3 integers that were used to scroll through all the
+  user-inputted data. Furthermore, MergeSort was implemented by using the "divide and
+  conquer" approach whcih splits the user-inputted data into smaller chunks and sorts
+  them, then brings them together and sorts the pre-sorted chunks as they get larger
+  in larger which mathematically results in faster computation times.
 
-The insertion sort that was created in lab1 was to be edited by changing paramters.
-The paramaters were now the starting index and ending index of whatever the total 
-paramaters were. In accordance, the for loop was edited to start at first index, and
-to finish at the last index of the array. Then we used the myCopy, which counted number
-of copies made from each element that was put into the placeholder. As well, my swap was 
-added to show the number of swaps that took place upon usage of the myCompare method. 
 
-The best case can be modelled by a linear equation - n. The worst case can be modelled by
-Total comparisons for the worst n^2. case can be modelled as a summation from 0-n, being
-added together one by one, where n was the number of terms. This function will also model
-the comparisons and swaps.
+#2 Analysis
+  Insertion Sort
+    average & worst case: O(n^2)
+    Best Case: O(n)
 
-Task 2.
-
-This task took quite a bit longer. You were required to create a code that implemneted
-the divide and conquer method. This could not be achieved with one simple method, so
-in accordance two methods were utitlized. The code was then utilized to divide the 
-desired data set, compare once at bottom level, merge together. Upon merging, it 
-would once again compare to elements on right or left, and in-accordance swap positions.
-Once those were utlized, the metrics like myCopy and myCompare were used. Myswap was not
-required.  
-
-The mergeSort can be modelled by O(n*Log(n)) for the worst, average and best case.
+  Merge sort
+    Average, best, and worst case: O(n * Log(n))
