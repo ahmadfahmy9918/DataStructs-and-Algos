@@ -1,33 +1,24 @@
-Summarize your lab:
-
-  Part 1:
-     Works  Yes 
-     
-  Part 2:
-     Works  Yes 
-     
-  Part 3:
-     Works  No
-     
 ***ANSWERS TO QUESTIONS***
  Question 1:
      Which hash table collision resolution method did you use
      (eg. chaining or open addressing)? Explain your choice
      briefly (less than 25 words).
- YOUR ANSWER:
- 
-In-order to do this part, I implemented the open address method. By doing so, I made restrictions which allowed 
-for me to take the next open address. In-accordance, a hash was generated, and takes that as the index value.
-It would increment until a restriction was not met. 
+
+MY ANSWER: 
+I used the open address method because it is usually faster than chaning and in this scenario
+i determined it would also be faster under these circumstances
 
  
  Question 2:
        Which hash function (division or multiplication) did you use?
        How did you convert a string into a number?
- YOUR ANSWER:
-I used a different method in-order to resolve part 2. I utilized the DJB2. In this method very few collision produced 
-for a very large input set.By utilizing the ACII codes' the numbers were allocated to the right array index, and counted
-in accordance.
+
+MY ANSWER:
+I would have used the division method because i used open addressing and mulitplication
+would've required the table size to be a power of two, however, I used DJB2 by a friends'
+recommendation as I was finding it difficult to impliment with division. Strings were converted
+using their ACII codes and coinciding numbers.
+
  
  
  
@@ -41,8 +32,8 @@ in accordance.
        
        Describe briefly how
        you would modify Part 3 to allow this kind of tag.
-       
- YOUR ANSWER:
+
+MY ANSWER:
 In-order to implement this, I would look to modify the beginning by including an if statement to check for the end tag. 
 By doing so, it will only push things that satisfy the if statement to pop or push them. If for example a / is not found
 it would not push anything
