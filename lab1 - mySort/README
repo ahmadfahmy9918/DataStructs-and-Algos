@@ -1,0 +1,6 @@
+Answer: In-order to implement the better sort method, one needs to realize what the actual signature 
+of the mySort. The mySort has two paramaters - the array which we are required to sort, as well as 
+total number of values stored in the array. By using a method to find the total lenght, we can 
+determine the first number, and store that arrdoingly,and the last number and also storing that. 
+By using these values stored, we can then call upon the betterSort method in the mySort and utilize
+it. 
